@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my website</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Pacifico" />
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url("web1ed.png");
+    }
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      color: white;
+      padding: 10px 10px;
+      margin: 10px 10px;
+    }
+    .mid {
+      display: block;
+      width: 43%;
+      margin: 10px auto;
+      color: white;
+    }
+    .right {
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      color: white;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      padding: 14px -2px 5px 38px;
+      margin: 1px 20px 1px 20px;
+      font-weight: bold;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    .navbar li a:hover {
+      text-decoration: underline;
+      color: grey;
+    }
+    .left div {
+      text-align: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: bold;
+    }
+    .btn1 {
+      background-color: transparent;
+      color: white;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 1px 3px;
+      font-weight: bold;
+      border: 2px solid white;
+    }
+    .btn1:hover {
+      color: grey;
+    }
+    .container {
+      border: 2px solid white;
+      margin: 48px 950px 113px 38px;
+      padding: 102px 31px 94px 82px;
+      border-radius: 20px;
+      width: 400px;
+    }
+    .hire {
+      color: #3b6868;
+      text-align: left;
+      padding: 8px 2px;
+      margin: 11px -59px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    .formsgroup input {
+      text-align: center;
+      display: block;
+      padding: 6px;
+      width: 355px;
+      border-radius: 10px;
+      margin: 7px -39px;
+      font-size: 15px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    .btn {
+      color: white;
+      border: 2px solid white;
+      background-color: transparent;
+      padding: 10px 121px;
+      margin: 19px 5px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      border-radius: 10px;
+    }
+    .btn:hover {
+      color: grey;
+    }
+    .left img {
+      filter: invert(100%);
+      width: 70px;
+      padding: 8px 12px;
+      margin: -27px -18px;
+    }
+
+    .front h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 100px;
+      color: #70a7f9;
+      position: absolute;
+      display: inline-block;
+      right: 65px;
+      bottom: 353px;
+    }
+    .front h2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 70px;
+      color: #84df5e;
+      position: absolute;
+      display: inline-block;
+      right: 259px;
+      bottom: 267px;
+    }
+    .front h3{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+      color: #49e716;
+      position: absolute;
+      display: inline-block;
+      right: 155px;
+      bottom: 169px;
+    }
+    .myphoto img{
+      width: 220px;
+      position: absolute;
+      right: 40px;
+      bottom: 110px;
+      padding: -31px 75px;
+      margin: -84px -43px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="jaguar_logo-removebg-preview.png" alt="" />
+        <div>PAVAN BASHABOINA</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about me</a></li>
+          <li><a href="#">contact me</a></li>
+          <li><a href="#">my resume</a></li>
+        </ul>
+      </div>
+
+      <div class="right">
+        <button class="btn1">call me now</button>
+        <button class="btn1">email me</button>
+      </div>
+
+      <div class="container">
+        <h2 class="hire">HIRE ME NOW TO BUILD YOUR <strong>WEBSITE</strong></h2>
+        <form action="noaction.php">
+          <div class="formsgroup">
+            <input type="text" name="" placeholder="ENTER YOUR NAME" />
+          </div>
+          <div class="formsgroup">
+            <input type="text" name="" placeholder="ENTER COMPANY NAME" />
+          </div>
+          <div class="formsgroup">
+            <input type="text" name="" placeholder="ENTER MY WORK TYPE" />
+          </div>
+          <button class="btn">submit</button>
+        </form>
+        <div class="front">
+          <h1>THIS IS PAVAN</h1>
+          <h2>FRONTEND</h2>
+          <h3>WEB DEVELOPER</h3>
+        </div>
+      </div>
+      <div class="myphoto">
+        <img src="20221122_182452.png" alt="">
+      </div>
+    </header>
+  </body>
+</html>
